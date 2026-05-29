@@ -9,3 +9,5 @@ console.error('Erro ao conectar ao MongoDB:', err);
 process.exit(1); // Encerra a aplicação em caso de falha
 });
 }
+
+module.exports = conectarBanco;
